@@ -1,6 +1,6 @@
 # .Net-Internship
 
-#Module 1 Topics:
+# Module 1 Topics:
 1. Version Control
 2. OOP - Types
 3. Inheritance-Polymorphism
@@ -22,7 +22,7 @@
 19. IoC
 20. TDD
 
-#Module 2 Topics:
+# Module 2 Topics:
 1. Database Introduction
 2. SQL Select
 3. Select Advanced
@@ -36,7 +36,7 @@
 11. EF Core Transactions and Selecting
 12. EF Core Advanced Selecting
 
-#eLearningSchool Project
+# eLearningSchool Project
 1. ASP.NET Core Web API
 2. EF Core
 3. ASP.NET Identity
@@ -48,7 +48,7 @@
 7. React
 8. Material Design
 
-#Project Description: 
+# Project Description: 
 Online school for learning foreign languages.
 There are two types of users: admin and student.
 Student can register and apply for courses from 'Manage my account' webpage.
