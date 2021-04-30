@@ -1,0 +1,15 @@
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ArraysAndStrings/ArraysAndStrings/obj/Debug/net5.0/ArraysAndStrings.csprojAssemblyReference.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ArraysAndStrings/ArraysAndStrings/obj/Debug/net5.0/ArraysAndStrings.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ArraysAndStrings/ArraysAndStrings/obj/Debug/net5.0/ArraysAndStrings.AssemblyInfoInputs.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ArraysAndStrings/ArraysAndStrings/obj/Debug/net5.0/ArraysAndStrings.AssemblyInfo.cs
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ArraysAndStrings/ArraysAndStrings/obj/Debug/net5.0/ArraysAndStrings.csproj.CoreCompileInputs.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ArraysAndStrings/ArraysAndStrings/bin/Debug/net5.0/ArraysAndStrings.deps.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ArraysAndStrings/ArraysAndStrings/bin/Debug/net5.0/ArraysAndStrings.runtimeconfig.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ArraysAndStrings/ArraysAndStrings/bin/Debug/net5.0/ArraysAndStrings.runtimeconfig.dev.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ArraysAndStrings/ArraysAndStrings/bin/Debug/net5.0/ArraysAndStrings.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ArraysAndStrings/ArraysAndStrings/bin/Debug/net5.0/ref/ArraysAndStrings.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ArraysAndStrings/ArraysAndStrings/bin/Debug/net5.0/ArraysAndStrings.pdb
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ArraysAndStrings/ArraysAndStrings/obj/Debug/net5.0/ArraysAndStrings.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ArraysAndStrings/ArraysAndStrings/obj/Debug/net5.0/ref/ArraysAndStrings.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ArraysAndStrings/ArraysAndStrings/obj/Debug/net5.0/ArraysAndStrings.pdb
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ArraysAndStrings/ArraysAndStrings/obj/Debug/net5.0/ArraysAndStrings.genruntimeconfig.cache

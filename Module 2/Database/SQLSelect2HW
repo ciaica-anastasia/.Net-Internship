@@ -1,0 +1,116 @@
+--basic usage
+SELECT TOP (1)
+    Last_Name
+FROM customers
+ORDER BY Last_Name DESC
+
+SELECT MAX(Last_Name)
+FROM customers
+
+SELECT AVG(monthly_payment) as AverageMonthlyPayment
+FROM packages
+
+SELECT TOP (1)
+    Last_Name
+FROM customers
+ORDER BY Last_Name
+
+SELECT MIN(Last_Name)
+FROM customers
+
+SELECT COUNT(pack_id) as NumberOfPackages
+FROM packages
+
+SELECT COUNT(Customer_Id) as NumberOfCustomers
+FROM customers
+
+SELECT COUNT(DISTINCT [State]) as NumberOfDistinctStates
+FROM customers
+
+SELECT COUNT(DISTINCT speed) as NumberOfDistinctSpeeds
+FROM packages
+
+SELECT COUNT(fax) as NumberOfFaxValues
+FROM customers
+
+SELECT COUNT(*) as NumberOfFaxNULLValues
+FROM customers
+WHERE fax IS NULL
+
+SELECT MAX(monthly_discount) as Maximum, MIN(monthly_discount) as Minimum, AVG(monthly_discount) as Average
+FROM customers
+
+--group by, having
+SELECT [State], COUNT(customer_id) as NumberOfCustomers
+FROM customers
+GROUP BY [State]
+
+SELECT speed, AVG(monthly_payment) as AverageMonthlyPayment
+FROM packages
+GROUP BY speed
+
+SELECT [State], COUNT(DISTINCT City) as NumberOfDistinctCities
+FROM customers
+GROUP BY [State]
+
+SELECT sector_id, MAX(monthly_payment) as HighestMonthlyPayment
+FROM packages
+GROUP BY sector_id
+
+SELECT pack_id, AVG(monthly_discount) as AverageMonthlyDiscount
+FROM customers
+GROUP BY pack_id
+
+SELECT pack_id, AVG(monthly_discount) as AverageMonthlyDiscount
+FROM customers
+WHERE pack_id = '22' OR pack_id = '13' --faster
+GROUP BY pack_id
+--HAVING pack_id = '22' OR pack_id = '13'
+
+SELECT speed, MAX(monthly_payment) as Maximum, MIN(monthly_payment) as Minimum, AVG(monthly_payment) as Average
+FROM packages
+GROUP BY speed
+
+SELECT pack_id, COUNT(customer_id) as NumberOfCustomers
+FROM customers
+--WHERE pack_id IS NOT NULL
+GROUP BY pack_id
+
+SELECT pack_id, COUNT(customer_id) as NumberOfCustomers
+FROM customers
+WHERE monthly_discount > 20 --AND pack_id IS NOT NULL
+GROUP BY pack_id
+
+SELECT pack_id, COUNT(customer_id) as NumberOfCustomers
+FROM customers
+--WHERE pack_id IS NOT NULL
+GROUP BY pack_id
+HAVING COUNT(customer_id) > 100
+
+SELECT [State], City, COUNT(customer_id) as NumberOfCustomers
+FROM customers
+GROUP BY [State], City
+
+SELECT City, AVG(monthly_discount) as AverageMonthlyDiscount
+FROM customers
+GROUP BY City
+
+SELECT City, AVG(monthly_discount) as AverageMonthlyDiscount
+FROM customers
+WHERE monthly_discount > 20
+GROUP BY City
+
+SELECT [State], MIN(monthly_discount) as MinimumMonthlyDiscount
+FROM customers
+GROUP BY [State]
+
+SELECT [State], MIN(monthly_discount) as MinimumMonthlyDiscount
+FROM customers
+GROUP BY [State]
+HAVING MIN(monthly_discount) > 10
+
+SELECT speed, COUNT(pack_id) as NumberOfPackages
+FROM packages
+GROUP BY speed
+HAVING COUNT(pack_id) > 8
+

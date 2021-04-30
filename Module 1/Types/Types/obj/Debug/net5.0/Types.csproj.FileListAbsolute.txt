@@ -1,0 +1,15 @@
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/Types/Types/bin/Debug/net5.0/Types.deps.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/Types/Types/bin/Debug/net5.0/Types.runtimeconfig.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/Types/Types/bin/Debug/net5.0/Types.runtimeconfig.dev.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/Types/Types/bin/Debug/net5.0/Types.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/Types/Types/bin/Debug/net5.0/ref/Types.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/Types/Types/bin/Debug/net5.0/Types.pdb
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/Types/Types/obj/Debug/net5.0/Types.csprojAssemblyReference.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/Types/Types/obj/Debug/net5.0/Types.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/Types/Types/obj/Debug/net5.0/Types.AssemblyInfoInputs.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/Types/Types/obj/Debug/net5.0/Types.AssemblyInfo.cs
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/Types/Types/obj/Debug/net5.0/Types.csproj.CoreCompileInputs.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/Types/Types/obj/Debug/net5.0/Types.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/Types/Types/obj/Debug/net5.0/ref/Types.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/Types/Types/obj/Debug/net5.0/Types.pdb
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/Types/Types/obj/Debug/net5.0/Types.genruntimeconfig.cache

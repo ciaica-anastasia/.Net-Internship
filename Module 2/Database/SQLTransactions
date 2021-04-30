@@ -1,0 +1,72 @@
+SET IMPLICIT_TRANSACTIONS ON
+UPDATE 
+   Students  
+SET 
+    Lastname = 'Sawyer', 
+    Firstname = 'Tom' 
+WHERE 
+    StudentId = 2
+COMMIT TRAN
+--------
+SET IMPLICIT_TRANSACTIONS OFF
+BEGIN TRANSACTION
+INSERT INTO Students
+VALUES('Mouse', 'Micky', '094594986', 'dui.Cum@pellentesquetellussem.org', 3, '1975-07-07', '2021-01-27', 'QCY92XUE7QT', 3)
+
+ROLLBACK TRAN
+
+SELECT *
+FROM Students
+WHERE Students.FirstName = 'Mouse'
+---------
+SELECT resource_type, request_mode, resource_description
+FROM sys.dm_tran_locks
+--WHERE resource_type <> 'DATABASE'
+
+---------
+SET IMPLICIT_TRANSACTIONS OFF
+BEGIN TRAN;
+UPDATE 
+   Students  
+SET 
+    Lastname = 'Nasim', 
+    Firstname = 'Olson' 
+WHERE 
+    StudentId = 1
+WAITFOR DELAY '00:00:20';
+ROLLBACK TRAN;
+
+SELECT *
+FROM Students
+WHERE StudentId = 1
+
+---------
+SET TRANSACTION ISOLATION LEVEL READ COMMITTED;
+BEGIN TRANSACTION;
+SELECT TOP 5
+    FirstName,
+    LastName
+FROM Students
+ORDER BY StudentId
+WAITFOR DELAY '00:00:10';
+ 
+SELECT TOP 5
+    FirstName,
+    LastName
+FROM Students
+ORDER BY StudentId
+ 
+COMMIT TRANSACTION;
+
+---------
+SET TRANSACTION ISOLATION LEVEL REPEATABLE READ;
+BEGIN TRANSACTION;
+ 
+SELECT *
+FROM Students
+WAITFOR DELAY '00:00:10.000';
+ 
+SELECT *
+FROM Students
+ 
+COMMIT TRANSACTION;

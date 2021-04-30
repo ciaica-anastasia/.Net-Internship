@@ -1,0 +1,1 @@
+ALTER TABLE StudentTeacherRelation ADD CONSTRAINT StudentTeacherRelationID PRIMARY KEY (StudentID, TeacherId);

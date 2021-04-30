@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "DatabaseProjecteLearningSchool",
+			"path": "../DatabaseProjecteLearningSchool"
+		}
+	],
+	"settings": {
+		"dataworkspace.projects": [
+			"DatabaseProjectSchool.sqlproj",
+			"../DatabaseProjecteLearningSchool/DatabaseProjecteLearningSchool.sqlproj"
+		]
+	}
+}

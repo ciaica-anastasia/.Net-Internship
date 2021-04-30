@@ -1,0 +1,15 @@
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/SOLID/SOLID/bin/Debug/net5.0/SOLID.deps.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/SOLID/SOLID/bin/Debug/net5.0/SOLID.runtimeconfig.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/SOLID/SOLID/bin/Debug/net5.0/SOLID.runtimeconfig.dev.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/SOLID/SOLID/bin/Debug/net5.0/SOLID.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/SOLID/SOLID/bin/Debug/net5.0/ref/SOLID.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/SOLID/SOLID/bin/Debug/net5.0/SOLID.pdb
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/SOLID/SOLID/obj/Debug/net5.0/SOLID.csprojAssemblyReference.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/SOLID/SOLID/obj/Debug/net5.0/SOLID.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/SOLID/SOLID/obj/Debug/net5.0/SOLID.AssemblyInfoInputs.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/SOLID/SOLID/obj/Debug/net5.0/SOLID.AssemblyInfo.cs
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/SOLID/SOLID/obj/Debug/net5.0/SOLID.csproj.CoreCompileInputs.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/SOLID/SOLID/obj/Debug/net5.0/SOLID.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/SOLID/SOLID/obj/Debug/net5.0/ref/SOLID.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/SOLID/SOLID/obj/Debug/net5.0/SOLID.pdb
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/SOLID/SOLID/obj/Debug/net5.0/SOLID.genruntimeconfig.cache

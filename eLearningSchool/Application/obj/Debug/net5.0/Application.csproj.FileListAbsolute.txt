@@ -1,0 +1,15 @@
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/eLearningSchool/Application/bin/Debug/net5.0/Application.deps.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/eLearningSchool/Application/bin/Debug/net5.0/Application.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/eLearningSchool/Application/bin/Debug/net5.0/ref/Application.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/eLearningSchool/Application/bin/Debug/net5.0/Application.pdb
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/eLearningSchool/Application/bin/Debug/net5.0/Domain.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/eLearningSchool/Application/bin/Debug/net5.0/Domain.pdb
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/eLearningSchool/Application/obj/Debug/net5.0/Application.csprojAssemblyReference.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/eLearningSchool/Application/obj/Debug/net5.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/eLearningSchool/Application/obj/Debug/net5.0/Application.AssemblyInfoInputs.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/eLearningSchool/Application/obj/Debug/net5.0/Application.AssemblyInfo.cs
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/eLearningSchool/Application/obj/Debug/net5.0/Application.csproj.CoreCompileInputs.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/eLearningSchool/Application/obj/Debug/net5.0/Application.csproj.CopyComplete
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/eLearningSchool/Application/obj/Debug/net5.0/Application.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/eLearningSchool/Application/obj/Debug/net5.0/ref/Application.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/eLearningSchool/Application/obj/Debug/net5.0/Application.pdb

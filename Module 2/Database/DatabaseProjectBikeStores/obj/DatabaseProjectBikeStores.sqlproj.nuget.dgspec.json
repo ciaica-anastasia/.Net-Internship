@@ -1,0 +1,45 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/Module 2/Database/DatabaseProjectBikeStores/DatabaseProjectBikeStores.sqlproj": {}
+  },
+  "projects": {
+    "/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/Module 2/Database/DatabaseProjectBikeStores/DatabaseProjectBikeStores.sqlproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/Module 2/Database/DatabaseProjectBikeStores/DatabaseProjectBikeStores.sqlproj",
+        "projectName": "DatabaseProjectBikeStores",
+        "projectPath": "/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/Module 2/Database/DatabaseProjectBikeStores/DatabaseProjectBikeStores.sqlproj",
+        "packagesPath": "/Users/Ciaica_Anastasia/.nuget/packages/",
+        "outputPath": "/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/Module 2/Database/DatabaseProjectBikeStores/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/Ciaica_Anastasia/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net46"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net46": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net46": {
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

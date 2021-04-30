@@ -1,0 +1,63 @@
+--inner join
+SELECT First_Name, Last_Name, customers.pack_id, speed
+FROM customers
+    INNER JOIN packages
+    ON customers.pack_id = packages.pack_id
+
+SELECT First_Name, Last_Name, customers.pack_id, speed
+FROM customers
+    INNER JOIN packages
+    ON customers.pack_id = packages.pack_id
+--WHERE customers.pack_id = '22' OR customers.pack_id = '27'
+WHERE customers.pack_id LIKE '2[2,7]'
+ORDER BY Last_Name
+
+SELECT pack_id, speed, monthly_payment, sector_name
+FROM packages
+    INNER JOIN sectors
+    ON packages.sector_id = sectors.sector_id
+
+SELECT (First_Name + ' ' + Last_Name) as Customer_Name, customers.pack_id, speed, monthly_payment, sector_name
+FROM customers
+    INNER JOIN packages
+    ON customers.pack_id = packages.pack_id
+    INNER JOIN sectors
+    ON packages.sector_id = sectors.sector_id
+
+SELECT (First_Name + ' ' + Last_Name) as Customer_Name, customers.pack_id, speed, monthly_payment, sector_name
+FROM customers
+    INNER JOIN packages
+    ON customers.pack_id = packages.pack_id
+    INNER JOIN sectors
+    ON packages.sector_id = sectors.sector_id
+--WHERE sector_name = 'Business'
+WHERE sector_name LIKE '___'
+
+SELECT Last_Name, First_Name, Join_Date, customers.pack_id, speed, sector_name
+FROM customers
+    INNER JOIN packages
+    ON customers.pack_id = packages.pack_id
+    INNER JOIN sectors
+    ON packages.sector_id = sectors.sector_id
+WHERE sector_name = 'Private' AND Join_Date = '2006'
+
+SELECT First_Name, Last_Name, speed, monthly_payment
+FROM customers
+    INNER JOIN packages
+    ON customers.pack_id = packages.pack_id
+
+--outer join
+SELECT First_Name, Last_Name, speed, monthly_payment --, customers.pack_id
+FROM customers
+    LEFT JOIN packages
+    ON customers.pack_id = packages.pack_id
+
+SELECT First_Name, Last_Name, speed, monthly_payment
+FROM customers
+    RIGHT JOIN packages
+    ON customers.pack_id = packages.pack_id
+
+SELECT First_Name, Last_Name, speed, monthly_payment
+FROM customers
+    FULL JOIN packages
+    ON customers.pack_id = packages.pack_id

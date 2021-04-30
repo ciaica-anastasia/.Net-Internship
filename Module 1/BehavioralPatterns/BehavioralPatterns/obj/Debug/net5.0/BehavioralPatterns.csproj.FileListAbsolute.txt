@@ -1,0 +1,15 @@
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/BehavioralPatterns/BehavioralPatterns/bin/Debug/net5.0/BehavioralPatterns.deps.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/BehavioralPatterns/BehavioralPatterns/bin/Debug/net5.0/BehavioralPatterns.runtimeconfig.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/BehavioralPatterns/BehavioralPatterns/bin/Debug/net5.0/BehavioralPatterns.runtimeconfig.dev.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/BehavioralPatterns/BehavioralPatterns/bin/Debug/net5.0/BehavioralPatterns.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/BehavioralPatterns/BehavioralPatterns/bin/Debug/net5.0/ref/BehavioralPatterns.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/BehavioralPatterns/BehavioralPatterns/bin/Debug/net5.0/BehavioralPatterns.pdb
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/BehavioralPatterns/BehavioralPatterns/obj/Debug/net5.0/BehavioralPatterns.csprojAssemblyReference.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/BehavioralPatterns/BehavioralPatterns/obj/Debug/net5.0/BehavioralPatterns.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/BehavioralPatterns/BehavioralPatterns/obj/Debug/net5.0/BehavioralPatterns.AssemblyInfoInputs.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/BehavioralPatterns/BehavioralPatterns/obj/Debug/net5.0/BehavioralPatterns.AssemblyInfo.cs
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/BehavioralPatterns/BehavioralPatterns/obj/Debug/net5.0/BehavioralPatterns.csproj.CoreCompileInputs.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/BehavioralPatterns/BehavioralPatterns/obj/Debug/net5.0/BehavioralPatterns.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/BehavioralPatterns/BehavioralPatterns/obj/Debug/net5.0/ref/BehavioralPatterns.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/BehavioralPatterns/BehavioralPatterns/obj/Debug/net5.0/BehavioralPatterns.pdb
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/BehavioralPatterns/BehavioralPatterns/obj/Debug/net5.0/BehavioralPatterns.genruntimeconfig.cache

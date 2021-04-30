@@ -1,0 +1,15 @@
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/AdvancedLINQ/AdvancedLINQ/bin/Debug/net5.0/AdvancedLINQ.deps.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/AdvancedLINQ/AdvancedLINQ/bin/Debug/net5.0/AdvancedLINQ.runtimeconfig.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/AdvancedLINQ/AdvancedLINQ/bin/Debug/net5.0/AdvancedLINQ.runtimeconfig.dev.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/AdvancedLINQ/AdvancedLINQ/bin/Debug/net5.0/AdvancedLINQ.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/AdvancedLINQ/AdvancedLINQ/bin/Debug/net5.0/ref/AdvancedLINQ.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/AdvancedLINQ/AdvancedLINQ/bin/Debug/net5.0/AdvancedLINQ.pdb
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/AdvancedLINQ/AdvancedLINQ/obj/Debug/net5.0/AdvancedLINQ.csprojAssemblyReference.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/AdvancedLINQ/AdvancedLINQ/obj/Debug/net5.0/AdvancedLINQ.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/AdvancedLINQ/AdvancedLINQ/obj/Debug/net5.0/AdvancedLINQ.AssemblyInfoInputs.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/AdvancedLINQ/AdvancedLINQ/obj/Debug/net5.0/AdvancedLINQ.AssemblyInfo.cs
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/AdvancedLINQ/AdvancedLINQ/obj/Debug/net5.0/AdvancedLINQ.csproj.CoreCompileInputs.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/AdvancedLINQ/AdvancedLINQ/obj/Debug/net5.0/AdvancedLINQ.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/AdvancedLINQ/AdvancedLINQ/obj/Debug/net5.0/ref/AdvancedLINQ.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/AdvancedLINQ/AdvancedLINQ/obj/Debug/net5.0/AdvancedLINQ.pdb
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/AdvancedLINQ/AdvancedLINQ/obj/Debug/net5.0/AdvancedLINQ.genruntimeconfig.cache

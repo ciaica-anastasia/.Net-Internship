@@ -1,0 +1,15 @@
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ExceptionsDebugging/ExceptionsDebugging/bin/Release/net5.0/ExceptionsDebugging.deps.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ExceptionsDebugging/ExceptionsDebugging/bin/Release/net5.0/ExceptionsDebugging.runtimeconfig.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ExceptionsDebugging/ExceptionsDebugging/bin/Release/net5.0/ExceptionsDebugging.runtimeconfig.dev.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ExceptionsDebugging/ExceptionsDebugging/bin/Release/net5.0/ExceptionsDebugging.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ExceptionsDebugging/ExceptionsDebugging/bin/Release/net5.0/ref/ExceptionsDebugging.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ExceptionsDebugging/ExceptionsDebugging/bin/Release/net5.0/ExceptionsDebugging.pdb
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ExceptionsDebugging/ExceptionsDebugging/obj/Release/net5.0/ExceptionsDebugging.csprojAssemblyReference.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ExceptionsDebugging/ExceptionsDebugging/obj/Release/net5.0/ExceptionsDebugging.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ExceptionsDebugging/ExceptionsDebugging/obj/Release/net5.0/ExceptionsDebugging.AssemblyInfoInputs.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ExceptionsDebugging/ExceptionsDebugging/obj/Release/net5.0/ExceptionsDebugging.AssemblyInfo.cs
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ExceptionsDebugging/ExceptionsDebugging/obj/Release/net5.0/ExceptionsDebugging.csproj.CoreCompileInputs.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ExceptionsDebugging/ExceptionsDebugging/obj/Release/net5.0/ExceptionsDebugging.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ExceptionsDebugging/ExceptionsDebugging/obj/Release/net5.0/ref/ExceptionsDebugging.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ExceptionsDebugging/ExceptionsDebugging/obj/Release/net5.0/ExceptionsDebugging.pdb
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ExceptionsDebugging/ExceptionsDebugging/obj/Release/net5.0/ExceptionsDebugging.genruntimeconfig.cache

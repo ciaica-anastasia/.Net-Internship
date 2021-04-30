@@ -1,0 +1,15 @@
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ExamModule1/ExamModule1/bin/Debug/net5.0/ExamModule1.deps.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ExamModule1/ExamModule1/bin/Debug/net5.0/ExamModule1.runtimeconfig.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ExamModule1/ExamModule1/bin/Debug/net5.0/ExamModule1.runtimeconfig.dev.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ExamModule1/ExamModule1/bin/Debug/net5.0/ExamModule1.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ExamModule1/ExamModule1/bin/Debug/net5.0/ref/ExamModule1.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ExamModule1/ExamModule1/bin/Debug/net5.0/ExamModule1.pdb
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ExamModule1/ExamModule1/obj/Debug/net5.0/ExamModule1.csprojAssemblyReference.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ExamModule1/ExamModule1/obj/Debug/net5.0/ExamModule1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ExamModule1/ExamModule1/obj/Debug/net5.0/ExamModule1.AssemblyInfoInputs.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ExamModule1/ExamModule1/obj/Debug/net5.0/ExamModule1.AssemblyInfo.cs
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ExamModule1/ExamModule1/obj/Debug/net5.0/ExamModule1.csproj.CoreCompileInputs.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ExamModule1/ExamModule1/obj/Debug/net5.0/ExamModule1.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ExamModule1/ExamModule1/obj/Debug/net5.0/ref/ExamModule1.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ExamModule1/ExamModule1/obj/Debug/net5.0/ExamModule1.pdb
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/ExamModule1/ExamModule1/obj/Debug/net5.0/ExamModule1.genruntimeconfig.cache

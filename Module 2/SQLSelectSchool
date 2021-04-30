@@ -1,0 +1,168 @@
+--все заявки
+SELECT *
+FROM StudentCourseRelation
+WHERE Approved = '0'
+
+--------
+--студенты + их уровни (заявки)
+SELECT Students.FirstName, Students.LastName,
+    (SELECT [Level]
+    FROM [dbo].[Level]
+    WHERE Students.LevelId = [dbo].[Level].[LevelId]) as StudentLevel
+FROM StudentCourseRelation as SC
+    INNER JOIN Students
+    ON SC.StudentId = Students.StudentId
+WHERE Approved = '0'
+
+--вывести преподавателя в группах, где учеников нет либо больше 0
+SELECT Teachers.FirstName, Teachers.LastName, Teachers.TeacherId
+FROM Teachers
+WHERE TeacherId IN (SELECT Courses.TeacherId
+FROM Courses
+    INNER JOIN StudentCourseRelation as SC
+    ON Courses.CourseId = SC.CourseId
+GROUP BY TeacherId)
+
+--все преподаватели, которые сейчас ведут занятия (и в заявках, и одобренные) --51 rows
+SELECT Courses.TeacherId
+FROM Courses
+    INNER JOIN StudentCourseRelation as SC
+    ON Courses.CourseId = SC.CourseId
+GROUP BY TeacherId
+
+--количество курсов каждого студента, у которого уровень Pre-Intermediate
+SELECT COUNT(CourseId) as QuantityOfCourses
+FROM StudentCourseRelation as SC
+    INNER JOIN Students as S
+    ON SC.StudentId = S.StudentId
+GROUP BY S.StudentId
+HAVING (SELECT Students.LevelId
+FROM Students
+WHERE StudentId = S.StudentId) = '3'
+
+--все учителя, которые сейчас что-то преподают --51 rows
+SELECT source.TeacherId
+FROM Teachers as source
+WHERE EXISTS (SELECT DISTINCT Courses.TeacherId
+FROM Courses INNER JOIN StudentCourseRelation as SC ON Courses.CourseId = SC.CourseId
+WHERE source.TeacherId = Courses.TeacherId)
+ORDER BY TeacherId
+
+--студенты, подавшие заявки
+SELECT Students.FirstName, Students.LastName
+FROM Students
+WHERE StudentId = ANY(SELECT StudentId
+FROM StudentCourseRelation
+WHERE Approved = '0')
+
+--студенты, которые подали заявку/обучаются на самом дешевом курсе
+SELECT SC.StudentId, Courses.Price
+FROM StudentCourseRelation as SC
+    INNER JOIN Courses
+    ON SC.CourseId = Courses.CourseId
+WHERE Courses.Price <= ALL(SELECT Price
+FROM Courses)
+
+--перечень всех студентов, подавших заявки либо обучающихся
+SELECT StudentId,
+    CASE Approved
+WHEN '0' THEN 'Applied for a course'
+WHEN '1' THEN 'Studying at the course'
+END AS 'State',
+    CourseId
+FROM StudentCourseRelation
+
+--уникальные курсы, на которых учатся/в заявках
+SELECT DISTINCT CourseId
+--64 rows
+FROM StudentCourseRelation
+
+--уникальные преподаватели, чьи курсы в заявках
+SELECT DISTINCT Courses.TeacherId
+--33 rows
+FROM Courses
+    INNER JOIN StudentCourseRelation as SC
+    ON Courses.CourseId = SC.CourseId
+WHERE Approved = '0'
+
+--уникальные преподаватели, чьи ВСЕ курсы в заявках
+SELECT DISTINCT source.TeacherId 
+--16 rows
+FROM Courses as source
+    INNER JOIN StudentCourseRelation as SC
+    ON source.CourseId = SC.CourseId
+GROUP BY TeacherId
+HAVING COUNT(SC.CourseId) = (SELECT COUNT(SC.CourseId)
+FROM StudentCourseRelation as SC INNER JOIN Courses ON SC.CourseId = Courses.CourseId
+WHERE Courses.TeacherId = source.TeacherId AND Approved = '0')
+
+SELECT COUNT(CASE 
+WHEN [Level].[Level] = 'Advanced' THEN '1'
+END) as Advanced
+FROM Students
+INNER JOIN [Level]
+ON Students.LevelId = [Level].[LevelId]
+--------
+
+--1. все заявки + имена студентов + их уровни 
+SELECT Students.FirstName, Students.LastName, [dbo].[Level].[Level] as StudentLevel
+--44 rows
+FROM StudentCourseRelation as SC
+    INNER JOIN Students
+    ON SC.StudentId = Students.StudentId
+    INNER JOIN [dbo].[Level]
+    ON Students.LevelId = [dbo].[Level].LevelId
+WHERE Approved = '0'
+
+--2. все заявки + необходимый уровень для прохождения курса + max size of group
+SELECT [dbo].[Level].[Level] as CoursePrerequisiteLevel, Courses.Capacity
+--44 rows
+FROM StudentCourseRelation as SC
+    INNER JOIN Courses
+    ON SC.CourseId = Courses.CourseId
+    INNER JOIN [dbo].[Level]
+    on Courses.LevelId = [dbo].[Level].LevelId
+WHERE Approved = '0'
+
+--3. количество уже обучающихся студентов в каждой группе
+SELECT COUNT(StudentId) as QuantityOfStudents, CourseId
+--43 rows
+FROM StudentCourseRelation as SC
+WHERE Approved = '1'
+GROUP BY CourseId
+ORDER BY QuantityOfStudents DESC
+
+--все уникальные курсы, на которых сейчас учатся студенты
+SELECT DISTINCT CourseId
+FROM StudentCourseRelation as SC
+
+--количество студентов на каждом курсе aka в каждой группе
+SELECT COUNT(StudentId) as QuantityOfStudents, CourseId
+FROM StudentCourseRelation as SC
+GROUP BY CourseId
+ORDER BY QuantityOfStudents DESC
+
+--количество курсов каждого студента
+SELECT COUNT(CourseId) as QuantityOfCourses, StudentId
+FROM StudentCourseRelation as SC
+GROUP BY StudentId
+ORDER BY QuantityOfCourses DESC
+
+--список преподавателей, задействованных на данный момент в учебном процессе ?
+SELECT DISTINCT TeacherId
+--66 rows
+FROM Courses
+
+--список преподавателей, которые не преподают ничего на данный момент ?
+SELECT Teachers.TeacherId, FirstName, LastName
+FROM Courses
+    RIGHT JOIN Teachers
+    ON Courses.TeacherId = Teachers.TeacherId
+WHERE Courses.TeacherId IS NULL
+
+--список студентов, чье имя начинается с 'A' и фамилия содержит внутри букву 'c'
+SELECT StudentId, FirstName, LastName
+FROM Students
+WHERE FirstName LIKE 'A%' AND LastName LIKE '%c%'
+ORDER BY FirstName
+

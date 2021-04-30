@@ -1,0 +1,15 @@
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/StructuralPatterns/StructuralPatterns/bin/Debug/net5.0/StructuralPatterns.deps.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/StructuralPatterns/StructuralPatterns/bin/Debug/net5.0/StructuralPatterns.runtimeconfig.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/StructuralPatterns/StructuralPatterns/bin/Debug/net5.0/StructuralPatterns.runtimeconfig.dev.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/StructuralPatterns/StructuralPatterns/bin/Debug/net5.0/StructuralPatterns.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/StructuralPatterns/StructuralPatterns/bin/Debug/net5.0/ref/StructuralPatterns.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/StructuralPatterns/StructuralPatterns/bin/Debug/net5.0/StructuralPatterns.pdb
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/StructuralPatterns/StructuralPatterns/obj/Debug/net5.0/StructuralPatterns.csprojAssemblyReference.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/StructuralPatterns/StructuralPatterns/obj/Debug/net5.0/StructuralPatterns.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/StructuralPatterns/StructuralPatterns/obj/Debug/net5.0/StructuralPatterns.AssemblyInfoInputs.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/StructuralPatterns/StructuralPatterns/obj/Debug/net5.0/StructuralPatterns.AssemblyInfo.cs
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/StructuralPatterns/StructuralPatterns/obj/Debug/net5.0/StructuralPatterns.csproj.CoreCompileInputs.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/StructuralPatterns/StructuralPatterns/obj/Debug/net5.0/StructuralPatterns.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/StructuralPatterns/StructuralPatterns/obj/Debug/net5.0/ref/StructuralPatterns.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/StructuralPatterns/StructuralPatterns/obj/Debug/net5.0/StructuralPatterns.pdb
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/StructuralPatterns/StructuralPatterns/obj/Debug/net5.0/StructuralPatterns.genruntimeconfig.cache

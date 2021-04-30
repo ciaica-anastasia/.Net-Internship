@@ -1,0 +1,15 @@
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/CreationalPatterns/CreationalPatterns/bin/Debug/net5.0/CreationalPatterns.deps.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/CreationalPatterns/CreationalPatterns/bin/Debug/net5.0/CreationalPatterns.runtimeconfig.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/CreationalPatterns/CreationalPatterns/bin/Debug/net5.0/CreationalPatterns.runtimeconfig.dev.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/CreationalPatterns/CreationalPatterns/bin/Debug/net5.0/CreationalPatterns.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/CreationalPatterns/CreationalPatterns/bin/Debug/net5.0/ref/CreationalPatterns.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/CreationalPatterns/CreationalPatterns/bin/Debug/net5.0/CreationalPatterns.pdb
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/CreationalPatterns/CreationalPatterns/obj/Debug/net5.0/CreationalPatterns.csprojAssemblyReference.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/CreationalPatterns/CreationalPatterns/obj/Debug/net5.0/CreationalPatterns.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/CreationalPatterns/CreationalPatterns/obj/Debug/net5.0/CreationalPatterns.AssemblyInfoInputs.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/CreationalPatterns/CreationalPatterns/obj/Debug/net5.0/CreationalPatterns.AssemblyInfo.cs
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/CreationalPatterns/CreationalPatterns/obj/Debug/net5.0/CreationalPatterns.csproj.CoreCompileInputs.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/CreationalPatterns/CreationalPatterns/obj/Debug/net5.0/CreationalPatterns.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/CreationalPatterns/CreationalPatterns/obj/Debug/net5.0/ref/CreationalPatterns.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/CreationalPatterns/CreationalPatterns/obj/Debug/net5.0/CreationalPatterns.pdb
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/CreationalPatterns/CreationalPatterns/obj/Debug/net5.0/CreationalPatterns.genruntimeconfig.cache

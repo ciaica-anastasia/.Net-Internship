@@ -1,0 +1,15 @@
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/OverloadingAndInterfaces/OverloadingAndInterfaces/obj/Debug/net5.0/OverloadingAndInterfaces.csprojAssemblyReference.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/OverloadingAndInterfaces/OverloadingAndInterfaces/obj/Debug/net5.0/OverloadingAndInterfaces.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/OverloadingAndInterfaces/OverloadingAndInterfaces/obj/Debug/net5.0/OverloadingAndInterfaces.AssemblyInfoInputs.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/OverloadingAndInterfaces/OverloadingAndInterfaces/obj/Debug/net5.0/OverloadingAndInterfaces.AssemblyInfo.cs
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/OverloadingAndInterfaces/OverloadingAndInterfaces/obj/Debug/net5.0/OverloadingAndInterfaces.csproj.CoreCompileInputs.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/OverloadingAndInterfaces/OverloadingAndInterfaces/bin/Debug/net5.0/OverloadingAndInterfaces.deps.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/OverloadingAndInterfaces/OverloadingAndInterfaces/bin/Debug/net5.0/OverloadingAndInterfaces.runtimeconfig.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/OverloadingAndInterfaces/OverloadingAndInterfaces/bin/Debug/net5.0/OverloadingAndInterfaces.runtimeconfig.dev.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/OverloadingAndInterfaces/OverloadingAndInterfaces/bin/Debug/net5.0/OverloadingAndInterfaces.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/OverloadingAndInterfaces/OverloadingAndInterfaces/bin/Debug/net5.0/ref/OverloadingAndInterfaces.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/OverloadingAndInterfaces/OverloadingAndInterfaces/bin/Debug/net5.0/OverloadingAndInterfaces.pdb
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/OverloadingAndInterfaces/OverloadingAndInterfaces/obj/Debug/net5.0/OverloadingAndInterfaces.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/OverloadingAndInterfaces/OverloadingAndInterfaces/obj/Debug/net5.0/ref/OverloadingAndInterfaces.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/OverloadingAndInterfaces/OverloadingAndInterfaces/obj/Debug/net5.0/OverloadingAndInterfaces.pdb
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/OverloadingAndInterfaces/OverloadingAndInterfaces/obj/Debug/net5.0/OverloadingAndInterfaces.genruntimeconfig.cache

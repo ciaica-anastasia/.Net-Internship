@@ -1,0 +1,51 @@
+Practice 2:
+
+A: 
+Static B.
+Static A.
+A.
+Bm.
+Method B.
+Method A.
+
+B:
+3#=Victor
+7&=Slava
+Code = 1C, Name = Kirill, Age = 30
+Code = N.A, Name = not known, Age = 0
+true
+2
+
+C:
+public static void CallRegisterOrder() {
+	IDataAccess dataAccess = new IDataAccess();
+	IRegisterOrderService registerOrderService = new IRegisterOrderService();
+	OrderService orderService = new OrderService(dataAccess, registerOrderService);
+	string customerName = “James”;
+	string productName = “game”;
+	try {
+		orderService.registerOrder(customerName, productName);
+	}
+	catch (ArgumentNullException) {
+		Log.Error;
+	}
+	catch (ApplicationHackException) {
+		Mailer.MailDeveloper;
+	}
+	catch (Exception) {
+		Log.Error;
+		Mailer.MailDeveloper;
+	}
+}
+
+Quiz:
+
+1)yes (a)
+
+15)10 9 2 15 (d)
+
+21) Any class implementing IDog has to define all four listed methods (c)
+
+26) 11 9 14 9 14 (e)
+
+27) true (c)

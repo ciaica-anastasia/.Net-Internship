@@ -1,0 +1,15 @@
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/NewVersionsFeatures/NewVersionsFeatures/bin/Debug/net5.0/NewVersionsFeatures.deps.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/NewVersionsFeatures/NewVersionsFeatures/bin/Debug/net5.0/NewVersionsFeatures.runtimeconfig.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/NewVersionsFeatures/NewVersionsFeatures/bin/Debug/net5.0/NewVersionsFeatures.runtimeconfig.dev.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/NewVersionsFeatures/NewVersionsFeatures/bin/Debug/net5.0/NewVersionsFeatures.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/NewVersionsFeatures/NewVersionsFeatures/bin/Debug/net5.0/ref/NewVersionsFeatures.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/NewVersionsFeatures/NewVersionsFeatures/bin/Debug/net5.0/NewVersionsFeatures.pdb
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/NewVersionsFeatures/NewVersionsFeatures/obj/Debug/net5.0/NewVersionsFeatures.csprojAssemblyReference.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/NewVersionsFeatures/NewVersionsFeatures/obj/Debug/net5.0/NewVersionsFeatures.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/NewVersionsFeatures/NewVersionsFeatures/obj/Debug/net5.0/NewVersionsFeatures.AssemblyInfoInputs.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/NewVersionsFeatures/NewVersionsFeatures/obj/Debug/net5.0/NewVersionsFeatures.AssemblyInfo.cs
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/NewVersionsFeatures/NewVersionsFeatures/obj/Debug/net5.0/NewVersionsFeatures.csproj.CoreCompileInputs.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/NewVersionsFeatures/NewVersionsFeatures/obj/Debug/net5.0/NewVersionsFeatures.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/NewVersionsFeatures/NewVersionsFeatures/obj/Debug/net5.0/ref/NewVersionsFeatures.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/NewVersionsFeatures/NewVersionsFeatures/obj/Debug/net5.0/NewVersionsFeatures.pdb
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/NewVersionsFeatures/NewVersionsFeatures/obj/Debug/net5.0/NewVersionsFeatures.genruntimeconfig.cache

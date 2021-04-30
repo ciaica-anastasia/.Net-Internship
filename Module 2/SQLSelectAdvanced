@@ -1,0 +1,21 @@
+--non-deterministic update based on join (нужно как минимум два matching поля в двух таблицах)
+UPDATE Students  
+SET Students.LevelId = Courses.LevelId
+FROM Students
+    INNER JOIN StudentCourseRelation
+    ON Students.StudentId = StudentCourseRelation.StudentId
+    INNER JOIN Courses
+    ON StudentCourseRelation.CourseId = Courses.CourseId
+
+--merge
+MERGE INTO Students as target
+USING (SELECT MIN(Courses.LevelId) as LevelId, StudentCourseRelation.StudentId as StudentId
+FROM Courses INNER JOIN StudentCourseRelation ON Courses.CourseId = StudentCourseRelation.CourseId GROUP BY StudentId) as source
+ON source.StudentId = target.StudentId
+
+WHEN MATCHED THEN UPDATE
+SET target.LevelId = source.LevelId
+
+--нет соответствия в таблице источнике
+WHEN NOT MATCHED BY SOURCE THEN UPDATE
+SET target.LevelId = '1';

@@ -1,0 +1,12 @@
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/eLearningSchool/Domain/bin/Debug/net5.0/Domain.deps.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/eLearningSchool/Domain/bin/Debug/net5.0/Domain.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/eLearningSchool/Domain/bin/Debug/net5.0/ref/Domain.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/eLearningSchool/Domain/bin/Debug/net5.0/Domain.pdb
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/eLearningSchool/Domain/obj/Debug/net5.0/Domain.csprojAssemblyReference.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/eLearningSchool/Domain/obj/Debug/net5.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/eLearningSchool/Domain/obj/Debug/net5.0/Domain.AssemblyInfoInputs.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/eLearningSchool/Domain/obj/Debug/net5.0/Domain.AssemblyInfo.cs
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/eLearningSchool/Domain/obj/Debug/net5.0/Domain.csproj.CoreCompileInputs.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/eLearningSchool/Domain/obj/Debug/net5.0/Domain.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/eLearningSchool/Domain/obj/Debug/net5.0/ref/Domain.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/eLearningSchool/Domain/obj/Debug/net5.0/Domain.pdb

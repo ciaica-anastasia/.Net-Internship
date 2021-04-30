@@ -1,0 +1,15 @@
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/EncodingDisposalGarbageCollection/EncodingDisposalGarbageCollection/bin/Debug/net5.0/EncodingDisposalGarbageCollection.deps.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/EncodingDisposalGarbageCollection/EncodingDisposalGarbageCollection/bin/Debug/net5.0/EncodingDisposalGarbageCollection.runtimeconfig.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/EncodingDisposalGarbageCollection/EncodingDisposalGarbageCollection/bin/Debug/net5.0/EncodingDisposalGarbageCollection.runtimeconfig.dev.json
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/EncodingDisposalGarbageCollection/EncodingDisposalGarbageCollection/bin/Debug/net5.0/EncodingDisposalGarbageCollection.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/EncodingDisposalGarbageCollection/EncodingDisposalGarbageCollection/bin/Debug/net5.0/ref/EncodingDisposalGarbageCollection.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/EncodingDisposalGarbageCollection/EncodingDisposalGarbageCollection/bin/Debug/net5.0/EncodingDisposalGarbageCollection.pdb
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/EncodingDisposalGarbageCollection/EncodingDisposalGarbageCollection/obj/Debug/net5.0/EncodingDisposalGarbageCollection.csprojAssemblyReference.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/EncodingDisposalGarbageCollection/EncodingDisposalGarbageCollection/obj/Debug/net5.0/EncodingDisposalGarbageCollection.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/EncodingDisposalGarbageCollection/EncodingDisposalGarbageCollection/obj/Debug/net5.0/EncodingDisposalGarbageCollection.AssemblyInfoInputs.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/EncodingDisposalGarbageCollection/EncodingDisposalGarbageCollection/obj/Debug/net5.0/EncodingDisposalGarbageCollection.AssemblyInfo.cs
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/EncodingDisposalGarbageCollection/EncodingDisposalGarbageCollection/obj/Debug/net5.0/EncodingDisposalGarbageCollection.csproj.CoreCompileInputs.cache
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/EncodingDisposalGarbageCollection/EncodingDisposalGarbageCollection/obj/Debug/net5.0/EncodingDisposalGarbageCollection.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/EncodingDisposalGarbageCollection/EncodingDisposalGarbageCollection/obj/Debug/net5.0/ref/EncodingDisposalGarbageCollection.dll
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/EncodingDisposalGarbageCollection/EncodingDisposalGarbageCollection/obj/Debug/net5.0/EncodingDisposalGarbageCollection.pdb
+/Users/Ciaica_Anastasia/Desktop/Computer Science/C#, .Net/Amdaris/EncodingDisposalGarbageCollection/EncodingDisposalGarbageCollection/obj/Debug/net5.0/EncodingDisposalGarbageCollection.genruntimeconfig.cache

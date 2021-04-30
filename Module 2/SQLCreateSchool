@@ -1,0 +1,87 @@
+--DROP DATABASE IF EXISTS eLearningSchool;
+
+--CREATE DATABASE eLearningSchool;
+
+CREATE TABLE [dbo].[Level]
+(
+    [LevelId] INT PRIMARY KEY IDENTITY(1, 1),
+    [Level] NVARCHAR(100) UNIQUE NOT NULL CHECK ([Level] IN('Beginner', 'Elementary', 'Intermediate', 'Pre-Intermediate', 'Upper-Intermediate', 'Advanced', 'Proficiency'))
+);
+
+CREATE TABLE [dbo].[StudentOverallStatus] 
+(
+    [StudentOverallStatusId] INT PRIMARY KEY IDENTITY(1, 1),
+    [StudentOverallStatus] NVARCHAR(100) UNIQUE NOT NULL CHECK ([StudentOverallStatus] IN('Active', 'Inactive', 'Pending', 'Registered'))
+);
+
+CREATE TABLE [dbo].[Students]
+(
+    [StudentId] INT PRIMARY KEY IDENTITY(1, 1),
+    [FirstName] NVARCHAR(500) NOT NULL,
+    [LastName] NVARCHAR(500) NOT NULL,
+    [PhoneNumber] NVARCHAR(500) UNIQUE NOT NULL,
+    [Email] NVARCHAR(500) UNIQUE NOT NULL,
+    [LevelId] INT NOT NULL FOREIGN KEY REFERENCES [dbo].[Level] ([LevelId]),
+    [BirthDate] DATE NOT NULL,
+    [EnrollmentDate] DATE NOT NULL DEFAULT GETDATE(),
+    [Password] NVARCHAR(500) NOT NULL,
+    [StudentOverallStatusId] INT NOT NULL FOREIGN KEY REFERENCES [dbo].[StudentOverallStatus] ([StudentOverallStatusId]),
+    --[Role] NVARCHAR(100) NOT NULL CHECK ([Role] IN('Admin', 'User', 'Guest')),
+    CHECK ([Email] like '%@%'),
+    CHECK ([PhoneNumber] NOT LIKE '%[^0-9]%')
+);
+
+CREATE TABLE [dbo].[StudentCourseStatus]
+(
+    [StudentCourseStatusId] INT PRIMARY KEY IDENTITY(1, 1),
+    [StudentCourseStatus] NVARCHAR(100) UNIQUE NOT NULL CHECK ([StudentCourseStatus] IN('Waiting for start', 'In progress', 'Finished', 'Frozen'))
+);
+
+CREATE TABLE [dbo].[Language]
+(
+    [LanguageId] INT PRIMARY KEY IDENTITY(1, 1),
+    [LanguageName] NVARCHAR(100) UNIQUE NOT NULL
+);
+
+CREATE TABLE [dbo].[AgeRange] 
+(
+    [AgeId] INT PRIMARY KEY IDENTITY(1, 1),
+    [AgeRange] NVARCHAR(100) NOT NULL CHECK ([AgeRange] IN('Preschool', 'School', 'Adults'))
+);
+
+CREATE TABLE [dbo].[Teachers] 
+(
+    [TeacherId] INT PRIMARY KEY IDENTITY(1, 1),
+    [Email] NVARCHAR(500) UNIQUE NOT NULL,
+    [FirstName] NVARCHAR(500) NOT NULL,
+    [LastName] NVARCHAR(500) NOT NULL,
+    [PhoneNumber] NVARCHAR(500) UNIQUE NOT NULL,
+    [Description] NVARCHAR(1000) NOT NULL,
+    CHECK ([Email] like '%@%'),
+    CHECK ([PhoneNumber] NOT LIKE '%[^0-9]%')
+);
+
+CREATE TABLE [dbo].[Courses] 
+(
+    [CourseId] INT PRIMARY KEY IDENTITY(1, 1),
+    [Capacity] INT NOT NULL CHECK ([Capacity] > 0),
+    [Schedule] NVARCHAR(1000) NOT NULL,
+    [LevelId] INT NOT NULL FOREIGN KEY REFERENCES [dbo].[Level] ([LevelId]),
+    [TeacherId] INT NOT NULL FOREIGN KEY REFERENCES [dbo].[Teachers] ([TeacherId]) ON UPDATE CASCADE ON DELETE NO ACTION,
+    [LanguageId] INT NOT NULL FOREIGN KEY REFERENCES [dbo].[Language] ([LanguageId]),
+    [Duration] NVARCHAR(1000) NOT NULL,
+    [Price] INT NOT NULL,
+    [Description] NVARCHAR(1000) NOT NULL,
+    [Prerequisite] INT NOT NULL FOREIGN KEY REFERENCES [dbo].[Level] ([LevelId]),
+    [AgeId] INT NOT NULL FOREIGN KEY REFERENCES [dbo].[AgeRange] ([AgeId]),
+    --[Purpose] NVARCHAR(100)
+);
+
+CREATE TABLE [dbo].[StudentCourseRelation] 
+(
+    [StudentId] INT NOT NULL FOREIGN KEY REFERENCES [dbo].[Students] ([StudentId]) ON UPDATE CASCADE ON DELETE CASCADE,
+    [CourseId] INT NOT NULL FOREIGN KEY REFERENCES [dbo].[Courses] ([CourseId]) ON UPDATE CASCADE ON DELETE CASCADE,
+    PRIMARY KEY (StudentId, CourseId),
+    [StudentCourseStatusId] INT NOT NULL FOREIGN KEY REFERENCES [dbo].[StudentCourseStatus] ([StudentCourseStatusId]),
+    [Approved] BIT NOT NULL
+);
