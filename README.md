@@ -42,7 +42,7 @@
 3. ASP.NET Identity
 4. CRUD operations
 5. CQRS + Mediatr
-6. Paginating, sorting, filtering of grid
+6. Clean architecture
 
 (Further)
 7. React
